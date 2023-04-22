@@ -1,0 +1,86 @@
+
+<html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"/>
+      <link rel="stylesheet" href="styleheader.css" />
+      <link rel="stylesheet" href="stylefooter.css" />
+      <title>calculator  </title>
+      <link rel="stylesheet" href="projectstyle.css">
+      <!-- Paste here -->
+  
+    </head>
+    <body>
+      <!-- HEADER START -->
+      <div class="menu-bar">
+        <img src="Screenshot (8).png" alt="logo" class="logo-self">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Projects<i class="fas fa-caret-down"></i></a>
+            
+            <div class="dropdown-menu">
+              <ul>
+                <li><a href="https://ashish0955.github.io/Decor-Home/">Decor Home</a></li>
+                <li><a href="https://ashish0955.github.io/Javascript-programme/">java-script-Programmes</a></li>
+                <li><a href="E:\full stack\Programs\Js project\index.html">JavaScript-Projects</a></li>
+                
+              </ul>
+            </div>
+            <li><a href="#">About Me</a></li>
+          </li>
+        </ul>
+      </div>
+      <!-- HEADER END -->
+      <!-- MAIN START -->
+      <div class="body">
+        <div class="container">
+            <div class="calculator">
+                <input type="text" id="userInput" placeholder="0">
+                <br>
+                <button class="btn" onclick="press(1)">1</button>
+                <button class="btn" onclick="press(2)">2</button>
+                <button class="btn" onclick="press(3)">3</button>
+                <button style="background-color: coral;" class="btn" onclick="press('+')">+</button>
+                <br>
+                <button class="btn" onclick="press(4)">4</button>
+                <button class="btn" onclick="press(5)">5</button>
+                <button class="btn" onclick="press(6)">6</button>
+                <button style="background-color: coral;" class="btn" onclick="press('-')">-</button>
+                <br>
+                <button class="btn" onclick="press(7)">7</button>
+                <button class="btn" onclick="press(8)">8</button>
+                <button class="btn" onclick="press(9)">9</button>
+                <button style="background-color: coral;" class="btn" onclick="press('*')">*</button>
+                <br>
+                <button class="btn" onclick="press('.')">.</button>
+                <button class="btn" onclick="press(0)">0</button>
+                <button class="btn" onclick="erase()">C</button>
+                <button style="background-color: coral;" class="btn" onclick="press('/')">/</button>
+                <br>
+                <button class="btnEqual" onclick="equal()">=</button>
+            </div>
+        </div>
+  
+        
+      </div>
+  
+  
+      
+      <!-- MAIN END -->
+      <!-- footer start -->
+      <footer class="footer-class">
+        <p class="copyright">© Ashish Sharma 2022</p>
+        <div class="footer">
+          <a class="icon icon--twitter" href="https://mobile.twitter.com/AshishS46515101" target="_blank"><i class="fab fa-twitter" ></i></a>
+          <a class="icon icon--linkedin" href="https://www.linkedin.com/mwlite/in/ashish-sharma-b99581231" target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a class="icon icon--github" href="https://github.com/Ashish0955" target="_blank"><i class="fab fa-github"></i></a>
+          <a class="icon icon--skype" href="https://web.skype.com/" target="_blank"><i class="fab fa-skype"></i></a>
+        </div>
+      </footer>
+      <!-- footer end -->
+        <!-- Add javascript -->
+        <script src="script.js"></script>
+    </body>
+  </html>
+  
